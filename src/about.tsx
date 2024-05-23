@@ -16,7 +16,7 @@ const About = () => {
       <section className="flex flex-col-reverse md:flex-row h-[90vh] md:h-[55vh] mx-10 md:mx-[130px] items-center justify-center md:justify-between gap-5 bg-white">
         <div className=" text-black flex flex-col gap-9 md:gap-12 items-center justify-center md:items-start">
           <h1 className="font-medium md:font-semibold text-[50px] sm:text-[40px] md:text-[50px] md:text-left w-full md:w-[530px] leading-snug md:leading-[62px] text-center">
-            About Codepad
+            About Kamziey
           </h1>
 
           <p className="text-center md:text-left mt-[-30px] w-[450px] md:w-[330px]">
@@ -25,7 +25,7 @@ const About = () => {
 
           <Link
             to="/products"
-            className="text-base font-medium text-white bg-blue-500 rounded-full px-7 md:px-12 py-4 md:py-5 hover:bg-blue-600 flex items-center justify-center gap-3"
+            className="text-base font-medium text-white bg-yellow-500 rounded-full px-7 md:px-12 py-4 md:py-5 hover:bg-yellow-600 flex items-center justify-center gap-3"
           >
             Explore Products
           </Link>
@@ -45,16 +45,7 @@ const About = () => {
           </h1>
 
           <p className="text-center md:text-left mt-[-10px]  w-full md:w-[550px] leading-relaxed">
-            We're the leader in Secure Remote Access and Support. We deliver an
-            in-person experience users need with security IT can trust. What is
-            an in-person experience? Unlike clunky remote access solutions, our
-            products are as fast, simple and secure as being right in front of
-            your on-site work computer, yet you can be anywhere, on any device.
-            Our solutions provide high performance with 4K quality at 60fps;
-            advanced security features and compliance; one application for
-            access and support across operating systems, including Windows and
-            Mac; and global support with direct access to an expert.
-          </p>
+          Kamziey Innovations Limited is a dynamic IT company dedicated to delivering cutting-edge technology solutions. With a focus on innovation and excellence, we provide a range of products and services designed to meet the diverse needs of our clients. Our mission is to leverage technology to drive business success and improve operational efficiency for organizations of all sizes.     </p>
 
         </div>
 
@@ -65,8 +56,8 @@ const About = () => {
         />
       </section>
 
-      <section className="flex w-full flex-col items-center justify-center md:justify-between gap-16 bg-blue-500/30 py-14 md:py-20">
-        <h2 className="font-medium md:font-semibold text-[50px] sm:text-[40px] md:text-[50px] md:text-left leading-snug md:leading-[62px] text-center text-blue-950">
+      <section className="flex w-full flex-col items-center justify-center md:justify-between gap-16 bg-yellow-500/30 py-14 md:py-20">
+        <h2 className="font-medium md:font-semibold text-[50px] sm:text-[40px] md:text-[50px] md:text-left leading-snug md:leading-[62px] text-center text-yellow-950">
           What we value
         </h2>
         <div className="px-10 md:px-[130px] flex flex-col md:flex-row justify-center items-center w-full gap-5">
@@ -120,27 +111,19 @@ const About = () => {
       <section className="flex flex-col-reverse md:flex-row mx-10 md:mx-[130px] items-center justify-center md:justify-between gap-5 bg-white py-14 md:py-20">
         <div className=" text-black flex flex-col gap-9 md:gap-12 items-center justify-center md:items-start">
           <h1 className="font-medium md:font-semibold text-[50px] sm:text-[40px] md:text-[50px] md:text-left w-full md:w-[530px] leading-snug md:leading-[62px] text-center">
-            Why Codepad
+            Why Us
           </h1>
 
           <p className="text-center md:text-left mt-[-10px]  w-full md:w-[550px] leading-relaxed">
-            With an experience of 16+ years, we deliver quality and reliability
-            to our clients. We craft customized solutions as per the needs of
-            your business. Our interactive web and ecommerce development
-            solutions have helped our clients climb the ladder of success in an
-            agile way. 
+          Choosing Kamziey Innovations Limited means partnering with a technology company dedicated to your success. Our team of highly skilled professionals brings extensive experience and deep technical knowledge to every project, ensuring you receive the best possible solutions tailored to your specific needs. We are passionate about leveraging cutting-edge technology and innovation to drive efficiency, productivity, and growth for your business. Quality is at the core of everything we do, from initial consultation to final delivery, ensuring our solutions meet the highest standards of reliability.
           </p>
 
           <p className="text-center md:text-left mt-[-25px]  w-full md:w-[550px] leading-relaxed">
-            We have helped countries from all over the world – clients grow
-            tremendously. With us, you get a perfect blend of experience and
-            creativity. We help you to get complete guidance to select the type
-            of service suitable for your business. The web and ecommerce
-            development is done by our expert developers in their fields. 
+          Our commitment to exceptional customer service means our support team is available 24/7 to assist with any issues or questions, ensuring your IT systems run smoothly. With a proven track record of successfully delivering complex IT projects across various industries, we take a holistic approach to IT solutions, considering all aspects of your business and technology environment. This ensures comprehensive, integrated solutions aligned with your overall business strategy. Additionally, we offer competitive pricing, providing high-quality IT solutions that offer excellent value for money. Partner with Kamziey Innovations Limited and experience the difference of working with a company that values innovation, excellence, and your success.
           </p>
           <Link
             to="/contact-us"
-            className="text-base font-medium text-white bg-blue-500 rounded-full px-7 md:px-12 py-4 md:py-5 hover:bg-blue-600 flex items-center justify-center gap-3"
+            className="text-base font-medium text-white bg-yellow-500 rounded-full px-7 md:px-12 py-4 md:py-5 hover:bg-yellow-600 flex items-center justify-center gap-3"
           >
             Contact Us
           </Link>

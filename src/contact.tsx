@@ -73,7 +73,7 @@ const Contact = () => {
     <div className="w-full h-full flex flex-col pt-[66px] md:pt-[80px]">
       <section className="relative h-[250px] md:h-[300px]">
         <div className="flex flex-col gap-2 items-center justify-center h-full w-full">
-          <h1 className="font-medium md:font-semibold text-[50px] sm:text-[40px] md:text-[50px] md:text-left leading-snug md:leading-[62px] text-center text-blue-950">
+          <h1 className="font-medium md:font-semibold text-[50px] sm:text-[40px] md:text-[50px] md:text-left leading-snug md:leading-[62px] text-center text-yellow-950">
             Contact Us
           </h1>
           <p>Find the best way to get help and connect with us</p>
@@ -145,7 +145,7 @@ const Contact = () => {
 
               <button
                 type="submit"
-                className="text-base font-medium text-white bg-blue-500 rounded-full px-7 md:px-12 py-[15px] hover:bg-blue-600 flex items-center justify-center gap-3 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:bg-blue-500"
+                className="text-base font-medium text-white bg-yellow-500 rounded-full px-7 md:px-12 py-[15px] hover:bg-yellow-600 flex items-center justify-center gap-3 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:bg-yellow-500"
                 onClick={toggleShowContactModal}
                 disabled={isButtonDisabled}
               >
@@ -165,7 +165,7 @@ const Contact = () => {
               <h4 className="text-[24px] leading-[24px] font-medium">
                 Call Us
               </h4>
-              <p className="text-blue-500 leading-[16px]">+234-817-351-5320</p>
+              <p className="text-yellow-500 leading-[16px]">+234-817-351-5320</p>
             </div>
           </div>
           <div className="flex gap-5 items-start justify-center">
@@ -174,7 +174,7 @@ const Contact = () => {
               <h4 className="text-[24px] leading-[24px] font-medium">
                 Mail Us
               </h4>
-              <p className="text-blue-500 leading-[16px]">support@codepad.ng</p>
+              <p className="text-yellow-500 leading-[16px]">support@codepad.ng</p>
             </div>
           </div>
           <div className="flex gap-5 items-start justify-center">
@@ -183,8 +183,8 @@ const Contact = () => {
               <h4 className="text-[24px] leading-[24px] font-medium">
                 Address
               </h4>
-              <p className="text-blue-500 leading-normal">
-                15 Odiyan Street, Lekki, Phase 1
+              <p className="text-yellow-500 leading-normal">
+                6 Oba Job Street, Iyana School,LASU, Lagos State
               </p>
             </div>
           </div>

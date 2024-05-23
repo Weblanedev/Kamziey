@@ -13,7 +13,7 @@ const PrivacyPolicy = () => {
     <div className="w-full h-full flex flex-col pt-[66px] md:pt-[80px]">
       <section className="relative h-[250px] md:h-[300px]">
         <div className="flex flex-col gap-2 items-center justify-center h-full w-full">
-          <h1 className="font-medium md:font-semibold text-[50px] sm:text-[40px] md:text-[50px] md:text-left leading-snug md:leading-[62px] text-center text-blue-950">
+          <h1 className="font-medium md:font-semibold text-[50px] sm:text-[40px] md:text-[50px] md:text-left leading-snug md:leading-[62px] text-center text-yellow-950">
             Terms of Use & Privacy Policy
           </h1>
         </div>

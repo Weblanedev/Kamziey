@@ -22,7 +22,7 @@ const BlogThree = () => {
         />
 
         <div className="absolute top-0 z-20 text-white flex flex-col gap-9 md:gap-9 items-center justify-center h-full w-full">
-          <h4 className="text-sm leading-[14px] font-medium text-white bg-blue-500 hover:bg-blue-600 cursor-pointer transition-colors rounded-md md:rounded-md px-[14px] py-[7px] flex items-center justify-center gap-3">
+          <h4 className="text-sm leading-[14px] font-medium text-white bg-yellow-500 hover:bg-yellow-600 cursor-pointer transition-colors rounded-md md:rounded-md px-[14px] py-[7px] flex items-center justify-center gap-3">
             News
           </h4>
           <h1 className="font-medium md:font-semibold text-[40px] md:text-[44px] w-full sm:w-[550px] md:w-[1000px] text-center leading-snug md:leading-[54px]">
@@ -34,7 +34,7 @@ const BlogThree = () => {
       <section className="relative p-10 md:px-[262px] md:py-[80px] flex flex-col gap-9 items-center w-full justify-center">
         <div className="w-full flex flex-col md:flex-row gap-[66px] justify-between">
           <div className="flex flex-col items-start gap-[10px] md:pt-[78px]">
-            <h3 className="bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-white py-[9px] px-[17px] rounded-full font-semibold text-[14px] leading-[14px]">
+            <h3 className="bg-gradient-to-r from-yellow-600 via-green-500 to-indigo-400 inline-block text-white py-[9px] px-[17px] rounded-full font-semibold text-[14px] leading-[14px]">
             Decision-Making
             </h3>
             <h2 className="font-mediium text-[30.68px] md:text-[40px] w-full sm:w-[530px] md:w-[382px] leading-[45px] text-[#010910]">

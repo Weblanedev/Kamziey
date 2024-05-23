@@ -24,14 +24,12 @@ const Homepage = ({
           </h1>
 
           <p className="text-center md:text-left mt-[-30px] w-[450px] md:w-[600px]">
-            Our highly skilled development teams specialized in Java, PHP,
-            React, Angular and AWS help you accelarate your business via modern
-            custom software solutions.
+          Kamziey Innovations Limited is a dynamic IT company dedicated to delivering cutting-edge technology solutions. With a focus on innovation and excellence, we provide a range of products and services designed to meet the diverse needs of our clients. Our mission is to leverage technology to drive business success and improve operational efficiency for organizations of all sizes.
           </p>
 
           <Link
             to="/products"
-            className="text-base font-medium text-white bg-blue-500 rounded-full px-7 md:px-12 py-4  hover:bg-blue-600 flex items-center justify-center gap-3"
+            className="text-base font-medium text-white bg-yellow-500 rounded-full px-7 md:px-12 py-4  hover:bg-yellow-600 flex items-center justify-center gap-3"
           >
             Explore Products
           </Link>
@@ -44,10 +42,10 @@ const Homepage = ({
         />
       </section>
 
-      <section className="flex w-full flex-col md:flex-row items-center justify-center md:justify-between gap-5 bg-blue-500/30 py-14 md:py-20">
+      <section className="flex w-full flex-col md:flex-row items-center justify-center md:justify-between gap-5 bg-yellow-500/30 py-14 md:py-20">
         <div className="flex flex-col md:flex-row gap-8 items-center justify-center w-full">
           {books.slice(0, 3).map((book) => (
-            <div className="flex flex-col items-center justify-center pt-12 pb-8 px-16 md:px-20 gap-7 bg-white rounded-2xl text-blue-900 round ed-xl">
+            <div className="flex flex-col items-center justify-center pt-12 pb-8 px-16 md:px-20 gap-7 bg-white rounded-2xl text-yellow-900 round ed-xl">
               <img
                 src={book.img}
                 alt=""
@@ -57,7 +55,7 @@ const Homepage = ({
                 {book.title}
               </h4>
               <p className="mt-[-15px] text-[12px] md:text-[14px] text-center w-[200px] line-clamp-3 md:w-[240px]">
-                {book.summary}
+                {book.description}
               </p>
               <h4 className="font-bold text-[18px] leading-tight text-center w-[200px] line-clamp-2">
                 {book.price}
@@ -65,7 +63,7 @@ const Homepage = ({
               <Link
                 to="/billing"
                 onClick={() => setSelectedBook(book)}
-                className="text-base font-medium text-white bg-blue-500 rounded-full px-7 md:px-8 py-2 md:py-3 hover:bg-blue-600 flex items-center justify-center gap-3"
+                className="text-base font-medium text-white bg-yellow-500 rounded-full px-7 md:px-8 py-2 md:py-3 hover:bg-yellow-600 flex items-center justify-center gap-3"
               >
                 Purchase
               </Link>
@@ -89,7 +87,7 @@ const Homepage = ({
             />
 
             <div className="absolute top-0 z-20 text-white flex flex-col gap-4 items-start justify-start ml-10 mt-10">
-              <h4 className="text-sm leading-[14px] font-medium text-white bg-blue-500 rounded-md md:rounded-md px-[14px] py-[7px] flex items-center justify-center gap-3">
+              <h4 className="text-sm leading-[14px] font-medium text-white bg-yellow-500 rounded-md md:rounded-md px-[14px] py-[7px] flex items-center justify-center gap-3">
                 News
               </h4>
 
@@ -112,7 +110,7 @@ const Homepage = ({
             />
 
             <div className="absolute top-0 z-20 text-white flex flex-col gap-4 items-start justify-start ml-10 mt-10">
-              <h4 className="text-sm leading-[14px] font-medium text-white bg-blue-500 rounded-md md:rounded-md px-[14px] py-[7px] flex items-center justify-center gap-3">
+              <h4 className="text-sm leading-[14px] font-medium text-white bg-yellow-500 rounded-md md:rounded-md px-[14px] py-[7px] flex items-center justify-center gap-3">
                 News
               </h4>
 
@@ -136,7 +134,7 @@ const Homepage = ({
             />
 
             <div className="absolute top-0 z-20 text-white flex flex-col gap-4 items-start justify-start ml-10 mt-10">
-              <h4 className="text-sm leading-[14px] font-medium text-white bg-blue-500 rounded-md md:rounded-md px-[14px] py-[7px] flex items-center justify-center gap-3">
+              <h4 className="text-sm leading-[14px] font-medium text-white bg-yellow-500 rounded-md md:rounded-md px-[14px] py-[7px] flex items-center justify-center gap-3">
                 News
               </h4>
 
@@ -159,7 +157,7 @@ const Homepage = ({
             />
 
             <div className="absolute top-0 z-20 text-white flex flex-col gap-4 items-start justify-start ml-10 mt-10">
-              <h4 className="text-sm leading-[14px] font-medium text-white bg-blue-500 rounded-md md:rounded-md px-[14px] py-[7px] flex items-center justify-center gap-3">
+              <h4 className="text-sm leading-[14px] font-medium text-white bg-yellow-500 rounded-md md:rounded-md px-[14px] py-[7px] flex items-center justify-center gap-3">
                 News
               </h4>
 

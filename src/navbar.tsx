@@ -7,13 +7,13 @@ const Navbar = () => {
   return (
     <nav
       id="navbar"
-      className={`px-[40px] md:px-[130px] z-40 py-[18px] shadow-2xl shadow-blue-900/20 flex items-center justify-between w-full top-[0px] left-0 fixed bg-white`}
+      className={`px-[40px] md:px-[130px] z-40 py-[18px] shadow-2xl shadow-yellow-900/20 flex items-center justify-between w-full top-[0px] left-0 fixed bg-white`}
     >
       <Link
         to="/"
         className="text-[20px] md:text-[30px] md:font-bold font-medium text-[#333333]"
-      >
-        Codepad
+        >
+        Kamziey Innovations
       </Link>
 
       <div className="md:flex items-center justify-center gap-14 hidden">
@@ -69,7 +69,7 @@ const Navbar = () => {
       <div
         className={`pb-[5px] transition duration-300 ease-in-out ${
           navbarVisible ? "top-[66px]" : "-top-[300px]"
-        } shadow-2xl shadow-blue-900/20 flex flex-col items-center justify-between w-full left-0 absolute bg-white px-10 md:hidden`}
+        } shadow-2xl shadow-yellow-900/20 flex flex-col items-center justify-between w-full left-0 absolute bg-white px-10 md:hidden`}
       >
         <Link
           to="/products"

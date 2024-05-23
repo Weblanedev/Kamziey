@@ -83,10 +83,10 @@ const Billing = ({ selectedBook }: { selectedBook: Book }) => {
     <div className="w-full h-full flex flex-col pt-[66px] md:pt-[80px]">
       <section className="relative h-[250px] md:h-[300px]">
         <div className="flex flex-col gap-2 items-center justify-center h-full w-full">
-          <h1 className="font-medium md:font-semibold text-[50px] sm:text-[40px] md:text-[50px] md:text-left leading-snug md:leading-[62px] text-center text-blue-950">
+          <h1 className="font-medium md:font-semibold text-[50px] sm:text-[40px] md:text-[50px] md:text-left leading-snug md:leading-[62px] text-center text-yellow-950">
             Order Details
           </h1>
-          <p>Find the best way to get help and connect with Splashtop</p>
+          <p>Find the best way to get help and connect with Kamziey</p>
         </div>
       </section>
 
@@ -356,7 +356,7 @@ const Billing = ({ selectedBook }: { selectedBook: Book }) => {
             <button
               type="submit"
               disabled={isButtonDisabled}
-              className="text-base font-medium text-white bg-blue-500 rounded-full px-7 md:px-12 py-[15px] hover:bg-blue-600 w-full mt-[22px] transition-colors disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:bg-blue-500"
+              className="text-base font-medium text-white bg-yellow-500 rounded-full px-7 md:px-12 py-[15px] hover:bg-yellow-600 w-full mt-[22px] transition-colors disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:bg-yellow-500"
               onClick={handleSubmit}
             >
               Place Order
